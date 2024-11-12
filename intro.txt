@@ -35,9 +35,32 @@ el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente
   llamarse main. Esto les causará unos conflictos más adelante, 
  que pueden evitar desde ahora ejecutando este comando antes de iniciar cualquier repositorio:
 
- Por Buena practica ahora no se usa la rama (master) en cambio se usa la rama (main) en la documentación habla de que al momento de crear el repositorio desde la carpeta y en la linea de comando se pone : git branch -M main or git branch -M master main pero a mi no me permitió hacerlo así, asi que si alguien presenta el mismo problema, que hice yo... me fui a la carpeta oculta de .git ==> al archivo HEAD lo abri con block de notas y cambie la palabra master por main así queda:
+ Por Buena practica ahora no se usa la rama (master) en cambio 
+ se usa la rama (main) en la documentación habla de que al 
+ momento de crear el repositorio desde la carpeta y 
+ en la linea de comando se pone : git branch -M main or 
+ git branch -M master main pero a mi no me permitió hacerlo así, 
+ asi que si alguien presenta el mismo problema, que hice yo... 
+ me fui a la carpeta oculta de .git ==> al archivo HEAD lo abri 
+ con block de notas y cambie la palabra master por main así queda:
 
 Screenshot_3.png
 
 le das atrás (cd ..) y luego entras de nuevo 
 a la carpeta del repo y ya veras los cambios de la palabra master por main
+Para no hacer el copiar y pegar en la consola, puede hacer lo siguiente:
+
+digitar el comando git diff (espacio)
+buscar y escoger la linea a copiar y subrayar
+
+Screenshot_1.png
+Dar clic en la rueda del scroll en el mouse e inmediatamente realiza la copia de lo subrayado
+Para editar un archivo en Vim:
+
+Presionar la tecla I para **entrar ** al modo INSERTAR
+Presionar **Esc ** para **salir ** del modo INSERTAR
+Escribir :w para **guardar ** los cambios
+Escribir :q para **salir ** de Vim
+Se pueden omitir los pasos 3 y 4 escribiendo en 
+su lugar :x que lo que hace es guardar y cerrar en un solo paso
+
