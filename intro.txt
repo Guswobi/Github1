@@ -28,3 +28,16 @@ seguidamente ponemos entre comillas nuestro nombre.
 git log: se usa para ver la historia de nuestros archivos, los commits, 
 el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente
  ponemos el nombre de nuestro archivo.
+
+ Me devuelvo hasta acá para ahorrarles un dolor de cabeza más adelante 😂 
+ Por la clase 18 se van a enterar que GitHub cambió algunas palabras clave. 
+ Entre esas, cambió el nombre de la rama principal, pasando de llamarse master a
+  llamarse main. Esto les causará unos conflictos más adelante, 
+ que pueden evitar desde ahora ejecutando este comando antes de iniciar cualquier repositorio:
+
+ Por Buena practica ahora no se usa la rama (master) en cambio se usa la rama (main) en la documentación habla de que al momento de crear el repositorio desde la carpeta y en la linea de comando se pone : git branch -M main or git branch -M master main pero a mi no me permitió hacerlo así, asi que si alguien presenta el mismo problema, que hice yo... me fui a la carpeta oculta de .git ==> al archivo HEAD lo abri con block de notas y cambie la palabra master por main así queda:
+
+Screenshot_3.png
+
+le das atrás (cd ..) y luego entras de nuevo 
+a la carpeta del repo y ya veras los cambios de la palabra master por main
