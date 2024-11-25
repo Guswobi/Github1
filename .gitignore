@@ -1,0 +1,4 @@
+*.jpg
+# ignore all logs
+*.log
+# ignore the file literally named foo[01].txt
